@@ -22,7 +22,7 @@ class Program
         Console.WriteLine("15. Unit Testing (Progress)");
         Console.WriteLine("CTRL + C untuk keluar");
         Console.WriteLine("=====================================");
-        Console.Write("Masukkan pilihan (1,2,3,4,5,6,7,8,9): ");
+        Console.Write("Masukkan pilihan (1,2,3,4,5,6,7,8,9,12): ");
         string pilihan = Console.ReadLine()!;
 
         Console.WriteLine("Output : \n");
@@ -55,6 +55,9 @@ class Program
                 break;
             case "9":
                 ExceptionHandling.Running();
+                break;
+            case "12":
+                LinqDasar.Running();
                 break;
             default:
                 Console.WriteLine("Pilihan tidak valid.");
